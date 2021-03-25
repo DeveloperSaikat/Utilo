@@ -30,7 +30,7 @@ class ScratchPadPage extends Component{
             password: this.state.password
         }
 
-        axios.post("https://utilo-fd532-default-rtdb.firebaseio.com/scratch.json", createContent)
+        axios.post("#", createContent)
             .then(response => {
                 this.setState({contentSubmission: true});
                 console.log(response.data);
