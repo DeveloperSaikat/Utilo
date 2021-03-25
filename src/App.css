@@ -1,0 +1,17 @@
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+}
+
+.nav-list-item{
+    color: white;
+    list-style: none;
+
+}
+
+.nav-list-item.active,
+.nav-list-item:hover
+{
+    font-weight: bold;
+    color: white;
+}

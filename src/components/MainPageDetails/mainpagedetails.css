@@ -1,0 +1,27 @@
+.service-items{
+    list-style: none;
+    margin: 30px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.service-item{
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.service-item p{
+    margin-top: 10px;
+}
+
+.service-item-image{
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
