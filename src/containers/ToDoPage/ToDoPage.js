@@ -30,7 +30,7 @@ class ToDoPage extends Component{
 
         const tasks = this.state;
 
-        axios.post("https://utilo-fd532-default-rtdb.firebaseio.com/todo.json", tasks)
+        axios.post("#", tasks)
             .then(response => {
                 this.setState({taskSubmission: true});
                 console.log(response.data);
