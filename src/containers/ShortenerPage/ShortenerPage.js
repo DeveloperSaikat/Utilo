@@ -24,7 +24,7 @@ class ShortenerPage extends Component{
         axios.post("https://api.zubku.site/shortLinks", shortIt)
             .then(response => {
                 this.setState({shortUrl: "https://zubku.site/"+response.data.slug});
-                axios.post("https://utilo-fd532-default-rtdb.firebaseio.com/url.json", response.data)
+                axios.post("#", response.data)
                     .then(response => {
                         this.setState({urlResponse: true})
                     })
